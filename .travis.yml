@@ -23,9 +23,22 @@ env: MAVEN_OPTS="-Xmx2G -XX:MaxPermSize=512M"
 jdk:
   - oraclejdk8
 
+jobs:
+  include:
+    - name: "Build and test on ARM64 CPU architecture"
+      arch: arm64
+  
+
 before_install:
   - ./build-tools/install-protobuf.sh
 
+install:
+  - if [ "${TRAVIS_CPU_ARCH}" == "arm64" ]; then 
+      sudo apt-get -m install openjdk-8-jdk maven;
+      export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-arm64;
+      export PATH=$JAVA_HOME/bin:$PATH; 
+    fi
+  
 script:
   - mvn -B clean install package -DskipTests=true -Dmaven.javadoc.skip=true
 
