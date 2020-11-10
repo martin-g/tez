@@ -12,10 +12,10 @@
     "5.11.0": "7d43f32bb56f83a9c47addb3f91170b3102f3ead"
   },
   "https://github.com/components/ember-data.git": {
-    "2.1.0": "d8b4d3092f67afe22d9d374c40d719d557915fa3"
+    "2.1.0": "2.1.0"
   },
   "https://github.com/components/ember.git": {
-    "2.2.0": "49e042ca89922ed96b27488c2a98add280ae7123"
+    "2.2.0": "2.2.0"
   },
   "https://github.com/components/jqueryui.git": {
     "1.11.4": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
@@ -27,7 +27,7 @@
     "0.1.1": "7a13f6dba5a340e1cb9e0b64c1c711e4d7edaca1"
   },
   "https://github.com/ember-cli/ember-cli-shims.git": {
-    "0.0.6": "dcab43b58d5698690050bb9a46ead5c8663c7da1"
+    "0.0.6": "0.0.6"
   },
   "https://github.com/ember-cli/ember-cli-test-loader.git": {
     "0.2.1": "3348d801089279296c38f31ae14d9c4d115ce154"
@@ -64,7 +64,7 @@
     "1.0.0": "ec67ad22eba116083ea3ef2fe0b40ccc953513ce"
   },
   "https://github.com/stefanpenner/loader.js.git": {
-    "3.3.0": "ac909550c9544325632542bbea97531cc60bc628"
+    "3.3.0": "3.3.0"
   },
   "https://github.com/twbs/bootstrap.git": {
     "3.3.6": "81df608a40bf0629a1dc08e584849bb1e43e0b7a"
